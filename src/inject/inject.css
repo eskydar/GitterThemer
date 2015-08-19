@@ -1,0 +1,126 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+nav.menu{
+    background-color: #262626 !important;
+}
+
+nav.menu > a.menu__create-room-button{
+    background-color: #966100 !important;
+}
+
+.room-list-item:hover{
+    background: none !important;
+    color: #966100 !important;
+}
+
+.room-list-item--current-room, .room-list-item--current-room:hover{
+    background: #966100 !important;
+    border-radius: 0 !important;
+    color: white !important;
+}
+
+.menu-list__overflow-shadow{
+    background: none !important;
+}
+
+header.chat-header{
+    background-color: #262626 !important;
+}
+
+header.chat-header > #header > .chat-header__buttons{
+    color: #966100 !important;
+}
+
+.js-chat-name{
+    color: white !important;
+}
+
+.chat-container{
+    background: #262626 !important;
+}
+
+.chat-item{
+    background-color: #262626 !important;
+    color: white !important;
+}
+
+.chat-item:hover{
+    background-color: #3D3D3D !important;
+}
+
+.chat-input{
+    background: #262626 !important;
+}
+
+.chat-input__buttons > a{
+    color: #966100 !important;
+}
+
+textarea.chat-input__text-area{
+    background-color: #262626 !important;
+    color: white !important;
+}
+
+.right-toolbar__header{
+    background-color: #262626 !important;
+    border-bottom: none !important;
+}
+
+.right-toolbar__body{
+    background-color: #262626 !important;
+    color: white !important;
+}
+
+.trpAddBadge{
+    background-color: #069654 !important;
+}
+
+.scroller::-webkit-scrollbar-thumb{
+    background-color: #966100 !important;
+    border-radius: 0;
+}
+
+.trpMoreBadge{
+    background-color: #057196 !important;
+}
+
+.right-toolbar__footer{
+    background-color: #262626 !important;
+}
+
+.support{
+    color: #966100 !important;
+}
+
+.support:hover{
+    background: none !important;
+}
+
+*::-webkit-input-placeholder{
+    color: #966100 !important;
+}
+
+.search-input{
+    color: #966100 !important;
+}
+.search-input > input{
+    background-color: #262626 !important;
+    border: 0 !important;
+}
+
+.result{
+    border-bottom: 1px solid #966100 !important;
+}
+
+.result.selected, .result:hover{
+    background-color: #966100 !important;
+}
+
+.highlight{
+    background-color: #966100 !important;
+}
+
+.result-empty{
+    color: white !important;
+}

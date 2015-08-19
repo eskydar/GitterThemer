@@ -1,0 +1,27 @@
+{
+  "name": "GitterThemer",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Customize Gitter to your own preferences",
+  "homepage_url": "http://sebastiaanvanarkens.nl",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "permissions": [
+    "https://gitter.im/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://gitter.im/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ],
+      "all_frames": true
+    }
+  ]
+}
