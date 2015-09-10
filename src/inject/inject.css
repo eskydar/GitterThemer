@@ -32,8 +32,8 @@ header.chat-header > #header > .chat-header__buttons{
     color: #966100 !important;
 }
 
-.js-chat-name{
-    color: white !important;
+.js-chat-name, .js-chat-name > a{
+    color: #966100 !important;
 }
 
 .chat-container{
@@ -123,4 +123,24 @@ textarea.chat-input__text-area{
 
 .result-empty{
     color: white !important;
+}
+
+.trpToolbarHeaderItem.selected{
+    color: #966100 !important;
+}
+
+.trpRepoInfoContainer > h2, .trpRepoInfoContainer > p > a{
+    color: #966100 !important;
+}
+
+.vcard-stats > a{
+    color: #966100 !important;
+}
+
+.github-wiki > a{
+    color: #966100 !important;
+}
+
+.octicon{
+    color: #966100 !important;
 }
