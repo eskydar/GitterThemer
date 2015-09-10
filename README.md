@@ -11,3 +11,6 @@
  6. Enable the extension if it's not enabled yet
 
 This is work in progress and it will be customizable in the future
+
+
+[![IMAGE ALT TEXT HERE](http://andrew.pyrah.net/wp-content/uploads/buy-me-a-coffee.png)](https://paypal.me/svanArkens)
