@@ -15,6 +15,6 @@ This is work in progress and it will be customizable in the future
 Currently this addon offers 1 Theme, currently working on making this completely customizable so users can create there own themes.
 
 Screenshot of theme:
-![DarkTheme](http://cl.ly/d41S)
+![DarkTheme](http://i.imgur.com/MF1wRWy.png)
 
 [![Buy me a coffee (or a beer)](http://andrew.pyrah.net/wp-content/uploads/buy-me-a-coffee.png)](https://paypal.me/svanArkens)
