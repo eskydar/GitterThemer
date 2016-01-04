@@ -10,11 +10,10 @@
  5. Drag and drop the extracted folder to your Chrome extensions page
  6. Enable the extension if it's not enabled yet
 
-This is work in progress and it will be customizable in the future
+Or download the stable version from the chrome webstore [Here](https://chrome.google.com/webstore/detail/gitterthemer/fbakhnfjhdfielcjfmhfohodphiefnha)
 
-Currently this addon offers 1 Theme, currently working on making this completely customizable so users can create there own themes.
+**More themes**
 
-Screenshot of theme:
-![DarkTheme](http://i.imgur.com/MF1wRWy.png)
+Feel free to create your own stylesheets/themes for gitter, toss them in a pull request and I'll check them and push them out on a next update.
 
 [![Buy me a coffee (or a beer)](http://andrew.pyrah.net/wp-content/uploads/buy-me-a-coffee.png)](https://paypal.me/svanArkens)
