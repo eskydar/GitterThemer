@@ -1,0 +1,49 @@
+.content{
+  h2{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  #thumbnail-wrapper{
+    width: 100%;
+    border-bottom: 1px solid black;
+    div.row{
+      margin-bottom: 20px;
+      margin-left: 0;
+      margin-right: 0;
+      div{
+        padding-left: 0;
+        padding-right: 0;
+        position: relative;
+        img{
+          cursor: pointer;
+        }
+        span{
+          position: absolute;
+          z-index: 999;
+          background: $black;
+          max-width: 106px;
+          padding: 2px 8px;
+          color: $white;
+          left: 14px;
+          bottom: 5px;
+          display: block;
+          word-wrap: break-word;
+          opacity: 0.7;
+          text-transform: uppercase;
+          font-size: 9px;
+          @include transitionAll(0.6);
+          &.selected{
+            background: green;
+          }
+        }
+        &:hover{
+          span{
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}

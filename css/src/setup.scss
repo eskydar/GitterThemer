@@ -1,0 +1,134 @@
+/*---------------COLORS------------------*/
+
+$white:#ffffff;
+$black:#000000;
+$heartColor:#f44e4e;
+
+/*---------------DIMENSIONS------------------*/
+
+$containerWidth:400px;
+$containerHeight: 464px;
+$headerHeight: 90px;
+
+/*---------------MIXINS------------------*/
+
+@mixin transition($property,$duration,$effect){
+  -webkit-transition: $property $duration + s $effect;
+  -moz-transition:    $property $duration + s $effect;
+  -ms-transition:     $property $duration + s $effect;
+  -o-transition:      $property $duration + s $effect;
+  transition:         $property $duration + s $effect;
+}
+
+@mixin transitionAll($time){
+  -webkit-transition: all $time + s ease-in-out;
+  -moz-transition:    all $time + s ease-in-out;
+  -ms-transition:     all $time + s ease-in-out;
+  -o-transition:      all $time + s ease-in-out;
+  transition:         all $time + s ease-in-out;
+}
+
+@mixin removeAppearance(){
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+  border:             0;
+  background:         none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow:    none;
+  box-shadow:         none;
+}
+
+@mixin borderBox(){
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@mixin borderRadius($borderRad) {
+  border-radius:            $borderRad + px;
+  -moz-border-radius:       $borderRad + px;
+  -webkit-border-radius:    $borderRad + px;
+  -o-border-radius:         $borderRad + px;
+  -ms-border-radius:        $borderRad + px;
+}
+
+@mixin borderRadiusPercent($borderRadPercent) {
+  border-radius: $borderRadPercent;
+  -moz-border-radius: $borderRadPercent;
+  -webkit-border-radius: $borderRadPercent;
+  -o-border-radius: $borderRadPercent;
+}
+
+@mixin textShadow($xoffset,$yoffset,$blur,$color){
+  text-shadow: $xoffset $yoffset $blur $color;
+  filter: dropshadow(color=$color, offx=$xoffset, offy=$yoffset);
+}
+
+@mixin opacity($value: 0.5, $important: false, $fallbackie8: false) {
+  @if $important {
+    @if $fallbackie8 == false {
+      filter: alpha(opacity=($value * 100)) !important;
+      zoom: 1 !important;
+      ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$value * 100})" !important;
+      -moz-opacity: $value !important;
+      -khtml-opacity: $value !important;
+      opacity: $value !important;
+    }
+   } @else {
+    @if $fallbackie8 == false {
+      filter: alpha(opacity=($value * 100));
+      zoom: 1;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$value * 100})";
+      -moz-opacity: $value;
+      -khtml-opacity: $value;
+      opacity: $value;
+    }
+  }
+}
+
+@mixin rotation($degree){
+  $valDegree: $degree + deg;
+  $idDegree: round($degree/90);
+
+  -webkit-transform: rotate($valDegree);
+  -moz-transform: rotate($valDegree);
+  -ms-transform: rotate($valDegree);
+  -o-transform: rotate($valDegree);
+  transform: rotate($valDegree);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=$idDegree); //available only 0 1(90) 2(180) 3(270)
+}
+
+@mixin origin($pos1, $pos2){
+  -webkit-transform-origin: $pos1 $pos2;
+  -moz-transform-origin: $pos1 $pos2;
+  -ms-transform-origin: $pos1 $pos2;
+  -o-transform-origin: $pos1 $pos2;
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    -moz-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}
+
+
+/*---------------FALLBACKS------------------*/
+
+@mixin apply-to-ie9 {
+  html[data-browserversion="9.0"] & {
+    @content;
+  }
+}
+
+@mixin apply-to-ie8 {
+  html[data-browserversion="8.0"] & {
+    @content;
+  }
+}

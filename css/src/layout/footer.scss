@@ -1,0 +1,15 @@
+footer{
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  h3{
+    font-size: 10px;
+    .fa-heart{
+      color: $heartColor;
+    }
+  }
+  a{
+    font-size: 10px;
+    color: black;
+    text-decoration: underline;
+  }
+}

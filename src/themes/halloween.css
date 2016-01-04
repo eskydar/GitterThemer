@@ -1,0 +1,164 @@
+/*Left nav*/
+nav.menu {
+    background-color: #010101 !important;
+}
+
+nav.menu div#profile-region div#left-menu-profile.menu-header--expanded {
+    background: #282829 !important;
+}
+
+nav.menu div#profile-region div#left-menu-profile:hover {
+    background-color: #282829 !important;
+}
+
+nav.menu div#profile-region div#left-menu-profile div.menu-header__profile {
+    color: #F8A66a !important;
+}
+
+nav.menu div#profile-region div#left-menu-profile ul#profile-menu {
+    color: #B9B5B5 !important;
+}
+
+nav.menu div#profile-region div#left-menu-profile ul#profile-menu li.profile-menu__link {
+    color: #B9B5B5 !important;
+}
+
+nav.menu div.menu-content div.content div.menu-list div.menu-list__item div div.menu-list__header {
+    color: #F8A66a !important;
+}
+
+
+/*Left room list*/
+ul.room-list li {
+    background-color: #282829 !important;
+    color: #B9B5B5 !important;
+}
+
+ul.room-list li:hover {
+    background-color: #646A53 !important;
+    color: #B9B5B5 !important;
+}
+
+ul.room-list li.room-list-item--current-room {
+    background-color: #F8A66a !important;
+    color: #010101 !important;
+}
+
+.menu-list__overflow-shadow {
+    background: none !important;
+}
+
+.menu__create-room-button {
+    background-color: #F8A66a !important;
+    color: #010101 !important;
+}
+
+
+/*Chat content*/
+div.chat-app header.chat-header {
+    background-color: #010101 !important;
+    border-bottom: 2px solid #F8A66a !important;
+}
+
+div.chat-app header.chat-header div.chat-header__content h2.js-chat-name {
+    color: #F8A66a !important;
+}
+
+div.chat-app header.chat-header div.chat-header__content h2.js-chat-name a {
+    color: #F8A66a !important;
+}
+
+div.chat-app header.chat-header div.chat-header__content p.js-chat-topic {
+    color: #B9B5B5 !important;
+}
+
+div.chat-app header.chat-header div.chat-header__content p.js-chat-topic a{
+    color: #F8A66a !important;
+}
+
+div.chat-app header.chat-header div.chat-header__buttons div a{
+    color: #F8A66a !important;
+}
+
+div.chat-app header.chat-header div.chat-header__buttons div i {
+    color: #F8A66a !important;
+}
+
+div.chat-container {
+    background-color: #010101 !important;
+}
+
+div.chat-item {
+    background-color: #010101 !important;
+    color: #B9B5B5 !important;
+}
+
+div.chat-item__from {
+    color: #646A53 !important;
+}
+
+span.widget {
+    color: #F8A66a !important;
+}
+
+div.chat-item__actions i.chat-item__icon {
+    color: #F8A66a !important;
+}
+
+.scroller::-webkit-scrollbar-thumb{
+    background-color: #966100 !important;
+    border-radius: 0;
+}
+
+/*Chat message box*/
+footer.chat-input {
+    background-color: #010101 !important;
+}
+
+textarea.chat-input__text-area {
+    background-color: #282829 !important;
+    color: #B9B5B5 !important;
+}
+
+div.chat-input__buttons div a i {
+    color: #F8A66a !important;
+}
+
+/*Rightside Content*/
+.right-toolbar {
+    background-color: #010101 !important;
+}
+
+header.right-toolbar__header {
+    border-bottom: 2px solid #F8A66a !important;
+}
+
+div.search-input input.js-search-input {
+    background-color: #282829 !important;
+    color: #B9B5B5 !important;
+    border: none !important;
+}
+
+div.search-input i {
+    color: #F8A66a !important;
+}
+
+div#people-list div.trpToolbarHeader {
+    color: #F8A66a !important;
+}
+
+div.remaining a.trpAddBadge {
+    background-color: #032D15 !important;
+    border: 1px solid #05441F !important;
+    color: #B9B5B5 !important;
+}
+
+div.remaining a.trpMoreBadge {
+    background-color: #0b212d !important;
+    border: 1px solid #082e44 !important;
+    color: #B9B5B5 !important;
+}
+
+div.remaining small {
+    color: #646A53 !important;
+}
